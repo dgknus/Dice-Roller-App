@@ -1,0 +1,7 @@
+lib/* linguist-language=Dart
+
+ios/* linguist-vendored
+android/* linguist-vendored
+windows/* linguist-vendored
+linux/* linguist-vendored
+macos/* linguist-vendored
