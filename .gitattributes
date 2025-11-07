@@ -1,7 +1,13 @@
-lib/* linguist-language=Dart
+# Dart kodları detectable olsun
+lib/** linguist-detectable=true
 
-ios/* linguist-vendored
-android/* linguist-vendored
-windows/* linguist-vendored
-linux/* linguist-vendored
-macos/* linguist-vendored
+# Platform klasörlerini istatistiklerden sayma
+android/** linguist-vendored
+ios/** linguist-vendored
+linux/** linguist-vendored
+windows/** linguist-vendored
+macos/** linguist-vendored
+web/** linguist-vendored
+
+# Build dosyalarını sayma
+build/** linguist-vendored
